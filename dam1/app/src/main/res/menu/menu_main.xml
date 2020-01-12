@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_adauga"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/nav_adauga"/>
+
+    <item
+        android:id="@+id/nav_sincronizare"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/nav_sincronizare"/>
+
+    <item
+        android:id="@+id/nav_grafic"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/nav_grafic"/>
+
+</menu>

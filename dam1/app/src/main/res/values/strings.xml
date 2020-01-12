@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">dam1</string>
+    <string name="nav_adauga">Adauga Jucator</string>
+    <string name="nav_sincronizare">Sincronizare Retea</string>
+    <string name="nav_grafic">Grafic</string>
+    <string name="adauga_title">Adauga jucator</string>
+    <string name="adauga_input_name_label">Nume:</string>
+    <string name="adauga_input_numar_label">Numar:</string>
+    <string name="adauga_input_pozitie_label">Pozitie:</string>
+    <string name="adauga_input_data_label">Data nasterii:</string>
+    <string name="adauga_btn_save_label">Salvare</string>
+    <string name="adauga_tv_alert">Formular completat incorect!</string>
+    <string name="main_title">Jucatori</string>
+    <string name="main_dialog_option_1">Da</string>
+    <string name="main_dialog_option_2">Nu</string>
+    <string name="main_dialog_title">Stergere jucator</string>
+    <string name="main_dialog_message">Sigur vrei sa stergi jucatorul?</string>
+    <string name="dummy_text">Lorem ipsum</string>
+    <string name="main_btn_save_label">Salveaza in db</string>
+
+    <string-array name="adauga_spn_values">
+        <item>Portar</item>
+        <item>Fundas</item>
+        <item>Mijlocas</item>
+        <item>Atacant</item>
+    </string-array>
+</resources>
