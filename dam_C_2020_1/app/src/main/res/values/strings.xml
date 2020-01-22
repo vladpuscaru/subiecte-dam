@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">dam_C_2020_1</string>
+    <string name="menu_item_add">Adauga Citat</string>
+    <string name="menu_item_sincronizare">Sincronizare retea</string>
+    <string name="main_dialog_title">DAM</string>
+    <string name="main_dialog_message">Puscaru Vlad</string>
+    <string name="main_dialog_btn">Got it</string>
+    <string name="adauga_autor_label">Autor:</string>
+    <string name="adauga_text_label">Text:</string>
+    <string name="adauga_aprecieri_label">Aprecieri:</string>
+    <string name="adauga_categorie_label">Categorie:</string>
+    <string name="adauga_btn_save_label">Salveaza</string>
+    <string name="adauga_btn_delete_label">Sterge</string>
+    <string name="adauga_error_message">Eroare la validarea formularului</string>
+    <string name="main_filter_label">Filtreaza:</string>
+    <string name="main_et_hint">T, Fa, S, Fi, M</string>
+    <string name="main_filter_T">T</string>
+    <string name="main_filter_Fa">Fa</string>
+    <string name="main_filter_S">S</string>
+    <string name="main_filter_Fi">Fi</string>
+    <string name="main_filter_M">M</string>
+    <string name="main_cat_Familie">Familie</string>
+    <string name="main_cat_Sport">Sport</string>
+    <string name="main_cat_Filozofie">Filozofie</string>
+    <string name="main_cat_Motivationale">Motivationale</string>
+    <string name="main_cat_None">None</string>
+    <string name="main_cat_All"></string>
+    <string name="dummy_text">Lorem ipsum</string>
+
+
+    <string-array name="categorii_citate">
+        <item>Familie</item>
+        <item>Sport</item>
+        <item>Filozofie</item>
+        <item>Motivationale</item>
+    </string-array>
+
+
+</resources>
