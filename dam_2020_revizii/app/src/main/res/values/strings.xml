@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">dam_2020_revizii</string>
+    <string name="main_btn_adauga">Adauga Revizie</string>
+    <string name="main_btn_lista">Lista revizii</string>
+    <string name="main_btn_sincronizare">Sincronizarea Retea</string>
+    <string name="main_btn_grafic">Grafic</string>
+    <string name="main_dialog_title">Greeding</string>
+    <string name="main_dialog_message">Vlad Puscaru</string>
+    <string name="main_dialog_btn">Ok boss</string>
+    <string name="adauga_et_nrAuto_hint">DB-99-VLD</string>
+    <string name="adauga_et_nrKm_hint">1.000.000 km</string>
+    <string name="adauga_et_data_hint">dd-MM-yyyy</string>
+    <string name="adauga_et_cost_hint">59.99</string>
+    <string name="adauga_tv_error">ERROR: Campuri completate invalid</string>
+    <string name="adauga_btn_salvare">Salveaza</string>
+    <string name="adauga_btn_stergere">Sterge</string>
+    <string name="lista_et_filter_hint">Filter: T, N, C, M</string>
+    <string name="dummy_text">Lorem ipsum</string>
+
+
+    <string-array name="adauga_spn_items">
+        <item>Normala</item>
+        <item>Complexa</item>
+        <item>Medie</item>
+    </string-array>
+
+    <string name="tip_short_toate">T</string>
+
+    <string name="tip_short_normala">N</string>
+    <string name="tip_normala">NORMALA</string>
+    <string name="tip_short_complexa">C</string>
+    <string name="tip_complexa">COMPLEXA</string>
+    <string name="tip_short_medie">M</string>
+    <string name="tip_medie">MEDIE</string>
+    <string name="lista_btn_save">Salveaza modificarile</string>
+</resources>

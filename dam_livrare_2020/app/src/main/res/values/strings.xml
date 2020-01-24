@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">dam_livrare_2020</string>
+    <string name="main_btn_adauga">Adauga Livrare</string>
+    <string name="main_btn_istoric">Istoric Livrari</string>
+    <string name="main_btn_import">Import date</string>
+    <string name="main_btn_despre">Despre</string>
+    <string name="main_tv_static">Aplicatia a fost accesata la ora </string>
+    <string name="main_despre">Aplicatia a fost realizata de Vlad Puscaru</string>
+    <string name="adauga_et_destinatar_hint">Destinatar</string>
+    <string name="adauga_et_adresa_hint">Adresa</string>
+    <string name="adauga_et_data_hint">dd-MM-yyyy</string>
+    <string name="adauga_et_valoare_hint">Valoare</string>
+    <string name="adauga_btn_salvare">Salvare</string>
+    <string name="adauga_btn_stergere">Sterge</string>
+    <string name="adauga_tv_error">ERROR: Campuri invalide</string>
+
+    <string-array name="adauga_spn_items">
+        <item>Fragil</item>
+        <item>Normal</item>
+        <item>Dur</item>
+    </string-array>
+</resources>

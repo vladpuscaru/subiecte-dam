@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AdaugaActivity">
+
+    <EditText
+        android:id="@+id/adauga_et_nrAuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_nrAuto_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/adauga_et_nrKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_nrKm_hint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/adauga_et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_data_hint"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/adauga_et_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_cost_hint"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/adauga_spn_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/adauga_tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:gravity="center_horizontal"
+        android:text="@string/adauga_tv_error"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/adauga_btn_salvare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="@string/adauga_btn_salvare" />
+
+        <Button
+            android:id="@+id/adauga_btn_stergere"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="@string/adauga_btn_stergere"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>
