@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_adauga"
+        android:title="@string/menu_item_adauga" />
+
+    <item
+        android:id="@+id/menu_item_sincronizare"
+        android:title="@string/menu_item_sincronizare" />
+
+    <item
+        android:id="@+id/menu_item_grafic"
+        android:title="@string/menu_item_grafic" />
+</menu>

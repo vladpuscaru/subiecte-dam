@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AdaugaActivity">
+
+    <EditText
+        android:id="@+id/adauga_et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_id_hint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/adauga_et_materie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_materie_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/adauga_et_studenti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_studenti_hint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/adauga_et_sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_sala_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/adauga_et_supraveghetor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_supraveghetor_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/adauga_tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/adauga_tv_error_text"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_marginTop="48dp"
+        android:id="@+id/adauga_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="@string/adauga_btn_save_label" />
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AdaugaActivity">
+
+    <EditText
+        android:id="@+id/adauga_et_numar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_numar_hint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/adauga_et_plecare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_plecare_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/adauga_et_destinatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_destinatie_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/adauga_et_pret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adauga_et_pret_hint"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/adauga_rg_tarif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adauga_rg_title" />
+
+        <RadioButton
+            android:id="@+id/adauga_rb_tarif_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/adauga_rb_tarif_true" />
+
+        <RadioButton
+            android:id="@+id/adauga_rb_tarif_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adauga_rb_tarif_false" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/adauga_tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/adauga_tv_error_text"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/adauga_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="@string/adauga_btn_save_text" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_eliberare"
+        android:title="@string/menu_item_eliberare" />
+
+
+    <item
+        android:id="@+id/menu_item_lista"
+        android:title="@string/menu_item_lista" />
+
+    <item
+        android:id="@+id/menu_item_json"
+        android:title="@string/menu_item_json" />
+
+    <item
+        android:id="@+id/menu_item_raport"
+        android:title="@string/menu_item_raport" />
+
+    <item
+        android:id="@+id/menu_item_despre"
+        android:title="@string/menu_item_despre" />
+
+</menu>

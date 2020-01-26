@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">dam_bilet_2019</string>
+    <string name="dev_name">Vlad Puscaru</string>
+
+    <string name="menu_item_eliberare">Eliberare Bilet</string>
+    <string name="menu_item_json">Preluare bilete din JSON</string>
+    <string name="menu_item_raport">Raport</string>
+    <string name="menu_item_despre">Despre</string>
+    <string name="menu_item_lista">Lista bilete</string>
+    <string name="adauga_et_numar_hint">Numar</string>
+    <string name="adauga_et_plecare_hint">Statie PLECARE</string>
+    <string name="adauga_et_destinatie_hint">Statie DESTINATIE</string>
+    <string name="adauga_et_pret_hint">Pret 59.99</string>
+    <string name="adauga_rb_tarif_true">Da</string>
+    <string name="adauga_rb_tarif_false">Nu</string>
+    <string name="adauga_rg_title">Tarif redus:</string>
+    <string name="adauga_tv_error_text">ERROR: Campuri invalide</string>
+    <string name="adauga_btn_save_text">Salveaza</string>
+    <string name="lista_btn_save">Salveaza modificarile</string>
+</resources>

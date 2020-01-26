@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">dam_examen_2020</string>
+    <string name="menu_item_adauga">Adauga Examen</string>
+    <string name="menu_item_sincronizare">Sincronizare Retea</string>
+    <string name="menu_item_grafic">Grafic</string>
+    <string name="adauga_et_id_hint">Id: 1, 2, 3. (unique)</string>
+    <string name="adauga_et_materie_hint">Materie</string>
+    <string name="adauga_et_studenti_hint">Numar studenti</string>
+    <string name="adauga_et_sala_hint">Sala: \"P. Vlad\"</string>
+    <string name="adauga_et_supraveghetor_hint">Supraveghetor: Al. Dita</string>
+    <string name="adauga_btn_save_label">Salveaza</string>
+    <string name="adauga_btn_delete_label">Sterge</string>
+    <string name="dummy_text">Lorem ipsum</string>
+    <string name="adauga_tv_error_text">ERROR: Campuri invalide</string>
+    <string name="main_dialog_title">Confirm</string>
+    <string name="main_dialog_message">Are you sure you want to delete it?</string>
+    <string name="main_dialog_yes">Yes</string>
+    <string name="main_dialog_no">No</string>
+    <string name="main_btn_save_text">SALVEAZA IN BD</string>
+
+    <string name="preference_file_key">com.example.dam_examen_2020</string>
+</resources>
